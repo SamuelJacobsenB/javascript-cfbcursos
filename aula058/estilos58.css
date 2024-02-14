@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing:border-box;
+    font-size: large;
+}
+
+#retangulo {
+    width: 500px;
+    margin: 20px;
+    padding: 8px;
+    border: 8px solid black;
+    border-radius: 20px;
+}
