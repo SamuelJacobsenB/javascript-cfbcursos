@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    background-color: #eee;
+    border: 3px solid #bbb;
+    width: 230px;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* TÍTULO */
+.div_nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+}
+
+.div_teclas {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+
+    width: 220px;
+    flex-wrap: wrap;
+}
+
+.tecla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #aaa;
+    border: 3px solid #888;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.teclaOp {
+    background-color: #f44 !important;
+    border-color: #800 !important;
+}
+
+/* DISPLAY  */
+.div_display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    width: 220px;
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.278);
+}
+
+.display {
+    text-align: right;
+    width: 220px;
+    background-color: #8a8;
+    padding: 5px;
+    font-family: monospace;
+    font-size: larger;
+}
