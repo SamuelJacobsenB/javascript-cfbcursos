@@ -1,0 +1,52 @@
+* {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.144);
+    width: 900px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input, button {
+    margin-bottom: 10px;
+}
+
+input[type=url] {
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #eee;
+    padding: 5px 30px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.325);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.325);
+    transition: 0.4s;
+}
